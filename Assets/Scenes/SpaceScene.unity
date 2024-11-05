@@ -425,6 +425,7 @@ GameObject:
   - component: {fileID: 122628055}
   - component: {fileID: 122628057}
   - component: {fileID: 122628056}
+  - component: {fileID: 122628058}
   m_Layer: 0
   m_Name: Moon
   m_TagString: Untagged
@@ -511,6 +512,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &122628058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 122628054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a337aa41010d2e4a92f2bf418e89996, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 122628054}
+  speed: 50
 --- !u!1 &423031511
 GameObject:
   m_ObjectHideFlags: 0
@@ -603,6 +618,7 @@ GameObject:
   m_Component:
   - component: {fileID: 565480651}
   - component: {fileID: 565480652}
+  - component: {fileID: 565480653}
   m_Layer: 0
   m_Name: PlanetX
   m_TagString: Untagged
@@ -642,6 +658,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 1574363133}
   speed: 1
+--- !u!114 &565480653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 565480650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a337aa41010d2e4a92f2bf418e89996, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 565480650}
+  speed: 5
 --- !u!1 &735202091
 GameObject:
   m_ObjectHideFlags: 0
@@ -735,6 +765,7 @@ GameObject:
   - component: {fileID: 777576475}
   - component: {fileID: 777576477}
   - component: {fileID: 777576476}
+  - component: {fileID: 777576478}
   m_Layer: 0
   m_Name: Moon
   m_TagString: Untagged
@@ -821,6 +852,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &777576478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 777576474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a337aa41010d2e4a92f2bf418e89996, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 777576474}
+  speed: 30
 --- !u!1 &789514424
 GameObject:
   m_ObjectHideFlags: 0
@@ -832,6 +877,7 @@ GameObject:
   - component: {fileID: 789514427}
   - component: {fileID: 789514426}
   - component: {fileID: 789514425}
+  - component: {fileID: 789514428}
   m_Layer: 0
   m_Name: PlanetZ
   m_TagString: Untagged
@@ -919,6 +965,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &789514428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 789514424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a337aa41010d2e4a92f2bf418e89996, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 789514424}
+  speed: 5
 --- !u!1 &864663174
 GameObject:
   m_ObjectHideFlags: 0
@@ -1095,6 +1155,7 @@ GameObject:
   - component: {fileID: 1405094420}
   - component: {fileID: 1405094422}
   - component: {fileID: 1405094421}
+  - component: {fileID: 1405094423}
   m_Layer: 0
   m_Name: Moon
   m_TagString: Untagged
@@ -1181,6 +1242,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1405094423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1405094419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a337aa41010d2e4a92f2bf418e89996, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1405094419}
+  speed: 50
 --- !u!1 &1560237929
 GameObject:
   m_ObjectHideFlags: 0
@@ -1192,6 +1267,7 @@ GameObject:
   - component: {fileID: 1560237931}
   - component: {fileID: 1560237930}
   - component: {fileID: 1560237932}
+  - component: {fileID: 1560237933}
   m_Layer: 0
   m_Name: Earth
   m_TagString: Untagged
@@ -1279,6 +1355,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 1574363133}
   speed: 5
+--- !u!114 &1560237933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1560237929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a337aa41010d2e4a92f2bf418e89996, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1560237929}
+  speed: 20
 --- !u!1 &1574363133
 GameObject:
   m_ObjectHideFlags: 0
@@ -1288,6 +1378,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1574363134}
+  - component: {fileID: 1574363135}
   m_Layer: 0
   m_Name: Sun
   m_TagString: Untagged
@@ -1313,6 +1404,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1574363135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1574363133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a337aa41010d2e4a92f2bf418e89996, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1574363133}
+  speed: 5
 --- !u!1 &1621776279
 GameObject:
   m_ObjectHideFlags: 0
@@ -1324,6 +1429,7 @@ GameObject:
   - component: {fileID: 1621776282}
   - component: {fileID: 1621776281}
   - component: {fileID: 1621776280}
+  - component: {fileID: 1621776283}
   m_Layer: 0
   m_Name: PlanetY
   m_TagString: Untagged
@@ -1411,6 +1517,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1621776283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1621776279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a337aa41010d2e4a92f2bf418e89996, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1621776279}
+  speed: 5
 --- !u!1 &1643772815
 GameObject:
   m_ObjectHideFlags: 0
